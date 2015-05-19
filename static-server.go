@@ -10,8 +10,8 @@ import (
 )
 
 type Options struct {
-	Host string `short:"p" long:"port" description:"port" default:""`
-	Port int    `short:"h" long:"host" description:"host" default:"8080"`
+	Host string `short:"h" long:"host" description:"port" default:""`
+	Port int    `short:"p" long:"port" description:"host" default:"8080"`
 	Path string `long:"path" description:"path" default:"."`
 }
 
